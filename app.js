@@ -26,9 +26,10 @@ const bookTableRouter = require('./routes/bookTable');
 
 // routes forward
 app.use('/', indexRouter);
+app.use('/home', indexRouter);
 app.use('/menu', menuRouter);
 app.use('/reviews', reviewsRouter);
-app.use('gallery', galleryRouter);
+app.use('/gallery', galleryRouter);
 app.use('/aboutUs', aboutUsRouter);
 app.use('/onlineOrdering', onlineOrderingRouter);
 app.use('/bookTable', bookTableRouter);
