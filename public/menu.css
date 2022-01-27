@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.heading-primary, .heading-secondary {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2em;
+}
+
+.header__subtext {
+  font-size: 12px;
+  text-align: center;
+}
+
+.navigation__link {
+  color: black;
+  text-decoration: none;
+}
+
+.section-footer {
+  background-color: #fcfcb9;
+  padding: 10rem 0;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 2rem ;
+}
+
+.row :not(last-child) {
+  margin-bottom: 2rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row [class^="col-"] {
+  float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+
+.row .col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
+.navigation {
+  margin-bottom: 2em;
+  border: 2px solid black;
+}
+
+.navigation__list {
+  text-align: center;
+}
+
+.navigation__item {
+  margin: 1em 2em 1em 1em;
+  display: inline-block;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 2em;
+}
+
+[class="section-"] {
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=main.css.map */
