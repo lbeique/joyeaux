@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aboutUs/style.css">
     <title>About Us</title>
 </head>
-<body>
 
-    <h1> Velcome! </h1>
-    
+<body>
+    <div class="navbar">
+        <!-- Page logo -->
+        <a href="../home" class="joyeaux-logo">
+            <img src="" class="joyeaux-logo">
+        </a>
+        <p class="navbar-item" id="about-us">ABOUT US</p>
+        <p class="navbar-item" id="menu">MENU</p>
+        <p class="navbar-item" id="location-and-contact">LOCATION & CONTACT</p>
+        <!-- Switch to burger on mobile view -->
+        <a href="someJavascriptFile.js" class="burger" onclick="burgerFunction()">
+            <img scr="" class="burger">
+        </a>
+        <!-- Here are the links that will appear when we click the burger. They are hidden by default. We can add more links here later -->
+        <div id="burger-links">
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </div>
+
+    <div class="about-section" id="hero-image">
+        <!-- Hero image background -->
+        <h1>About Us</h1>
+    </div>
+
+    <!-- We may add more sections -->
+    <div class="about-section" id="1">
+        <h2 class="about-section-heading" id="1">Some Heading 2</h2>
+        <p class="about-section-description" id="1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Gravida quis blandit turpis cursus in hac habitasse platea. Gravida neque convallis a
+            cras semper auctor neque vitae tempus. Scelerisque in dictum non consectetur. Tincidunt lobortis feugiat
+            vivamus at augue eget arcu. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam non
+            quam lacus suspendisse faucibus interdum posuere. Amet nisl suscipit adipiscing bibendum est ultricies
+            integer quis auctor. Consequat interdum varius sit amet mattis vulputate. Non blandit massa enim nec dui
+            nunc mattis.
+        </p>
+        <div class="about-section-images" id="1">
+            <img src="" class="about-section-image" id="1">
+            <img src="" class="about-section-image" id="2">
+            <img src="" class="about-section-image" id="3">
+            <img src="" class="about-section-image" id="4">
+        </div>
+    </div>
+
+    <div class="website-footer">
+        <ul class="contact-footer">
+            <li>Tel:</li>
+            <li>Fax:</li>
+            <li>Email:</li>
+        </ul>
+        <div class="location-footer">
+            <p>Address: 551 Howe Street, Vancouver, BC, V6C 2C2 CANADA</p>
+        </div>
+        <p>©2008 Joyeaux Café & Restaurant's Homepage Copyright</p>
+        <!-- I also want to add icons that link to their media (facebook, insta, etc.) but they don't seem to have those -->
+    </div>
 </body>
+
 </html>
