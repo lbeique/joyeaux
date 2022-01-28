@@ -39,6 +39,10 @@ h1 {
     background: url(https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80)
 }
 
+.team {
+    background: url(https://images.unsplash.com/photo-1520694478166-daaaaec95b69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
 .cta {
     border: 2px black solid;
     padding: 20px;
