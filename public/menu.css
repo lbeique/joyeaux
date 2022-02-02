@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 
 body {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
@@ -21,11 +21,12 @@ ul {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
 }
 
-.heading-primary, .heading-secondary {
+.heading-primary,
+.heading-secondary {
   text-align: center;
 }
 
@@ -53,7 +54,7 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  margin-bottom: 2rem ;
+  margin-bottom: 2rem;
 }
 
 .row :not(last-child) {
@@ -120,3 +121,31 @@ body {
   margin-bottom: 2em;
 }
 /*# sourceMappingURL=main.css.map */
+
+/* Menu Item Hover Effect */
+
+.items {
+  position: relative;
+  background-color: red;
+  transition: 0.5s ease-in-out;
+}
+
+.items:hover {
+  transform: scale(1.1);
+}
+
+.items:before {
+  content: "";
+  background: url(https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg);
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s ease-in;
+}
+
+.items:hover:before {
+  bottom: calc(100%);
+}
