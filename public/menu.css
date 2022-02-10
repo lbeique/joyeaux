@@ -25,7 +25,12 @@ body {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
+.heading-primary,
+.heading-secondary {
+=======
 .heading-primary--main {
+>>>>>>> master
   text-align: center;
 }
 
